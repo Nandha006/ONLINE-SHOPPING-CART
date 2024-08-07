@@ -1,0 +1,209 @@
+--create table_user
+create table USER(user_id int,
+name varchar(30),
+phone_num int,
+primary key(user_id));
+
+--create table_buyer
+
+
+create table BUYER(user_id int,
+primary key(user_id),
+foreign key(user_id) references  USER(user_id));
+
+--create table_seller
+
+
+create table SELLER(user_id int,
+primary key(user_id),
+foreign key(user_id) references USER(user_id));
+
+--create table_BANKCARD
+
+
+create table BANK_CARD(card_num varchar(30),
+bank_name varchar(30),
+expiry_date date,
+primary key(card_num));
+
+--create table_credit_card
+
+
+create table CREDIT_CARD(card_num varchar(30),
+user_id int,
+organization varchar(30),
+primary key(card_num),
+foreign key(user_id) references USER(user_id),
+foreign key(card_num) references BANK_CARD(card_num));
+
+create table_debit_card
+
+
+create table DEBIT_CARD(card_num varchar(30),
+user_id int,
+primary key(card_num),
+foreign key(card_num) references BANK_CARD(card_num),
+foreign key(user_id) references USER(user_id));
+
+--create table_Store
+
+
+create table STORE(s_id int,
+s_name varchar(50),
+start_time date,
+customer_grade int,
+street_addr varchar(50),
+province varchar(20),
+city varchar(20),
+primary key(s_id));
+
+--create table_brand
+
+
+create table BRAND(brand_name varchar(20),
+primary key(brand_name));
+
+--create table_PRoduct
+
+
+create table PRODUCT(p_id int,
+s_id int,
+p_name varchar(20),
+brand_name varchar(20),
+type varchar(20),
+model_num varchar(20),
+color varchar(20),
+amount int,
+price int,
+primary key(p_id),
+foreign key(s_id) references STORE(s_id),
+foreign key(brand_name) references BRAND(brand_name));
+
+--create table_order_item
+
+
+create table ORDER_ITEM(item_id int,
+p_id int,
+price int,
+creation_time date,
+primary key(item_id),
+foreign key(p_id) references PRODUCT(p_id));
+
+--create table_orders
+
+
+create table ORDERS(order_num int,
+payments_status varchar(20),
+creation_time date,
+total_amount int,
+primary key(order_num));
+
+--create table_comments
+
+create table COMMENTS(creation_time date,
+user_id int,
+p_id int,
+grade float,
+content varchar(200),
+primary key(creation_time),
+foreign key(user_id) references USER(user_id),
+foreign key(p_id) references PRODUCT(p_id));
+
+--create table_service_point
+
+create table SERVICE_POINT(sp_id int,
+street_addr varchar(50),
+city varchar(20),
+province varchar(20),
+start_time time,
+end_time time,
+primary key(sp_id));
+
+--create table_address
+
+create table ADDRESS(add_id int,
+user_id int,
+name varchar(20),
+phone_num int,
+province varchar(20),
+city varchar(20),
+street_addr varchar(50),
+post_code varchar(20),
+primary key(add_id),
+foreign key(user_id) references USER(user_id));
+
+
+
+--RELATIONSHIP
+
+--create table_save_shopping_cart
+
+CREATE TABLE Save_to_Shopping_Cart
+(
+    user_id INT NOT NULL,
+    p_id INT NOT NULL,
+    addTime DATE,
+    quantity INT,
+    PRIMARY KEY (user_id,p_id),
+    FOREIGN KEY(user_id) REFERENCES BUYER(user_id),
+    FOREIGN KEY(p_id) REFERENCES PRODUCT(p_id)
+);
+
+--create table_contain
+
+CREATE TABLE Contain
+(
+    order_num INT NOT NULL,
+    item_id INT NOT NULL,
+    quantity INT,
+    PRIMARY KEY (order_num,item_id),
+    FOREIGN KEY(order_num) REFERENCES ORDERS(order_num),
+    FOREIGN KEY(item_id) REFERENCES ORDER_ITEM(item_id)
+);
+
+--create table_payments
+
+CREATE TABLE Payment
+(
+    order_num INT NOT NULL,
+    card_num VARCHAR(25) NOT NULL,
+    pay_time DATE,
+    PRIMARY KEY(order_num,card_num),
+    FOREIGN KEY(order_num) REFERENCES Orders(order_num),
+    FOREIGN KEY(card_num) REFERENCES Credit_Card(card_num)
+);
+
+--create table_deliver_to
+
+CREATE TABLE Deliver_To
+(
+    add_id INT NOT NULL,
+    order_num INT NOT NULL,
+    delivered_time DATE,
+    PRIMARY KEY(add_id,order_num),
+    FOREIGN KEY(add_id) REFERENCES Address(add_id),
+    FOREIGN KEY(order_num) REFERENCES Orders(order_num)
+);
+
+--create table_manage
+
+CREATE TABLE Manage
+(
+    user_id INT NOT NULL,
+    s_id INT NOT NULL,
+    SetUpTime DATE,
+    PRIMARY KEY(user_id,s_id),
+    FOREIGN KEY(user_id) REFERENCES Seller(user_id),
+    FOREIGN KEY(s_id) REFERENCES Store(s_id)
+    );
+    
+    --create table_after_sales_service_at
+    
+    CREATE TABLE After_Sales_Service_At
+(
+    brand_Name VARCHAR(20) NOT NULL,
+    sp_id INT NOT NULL,
+    PRIMARY KEY(brand_Name, sp_id),
+    FOREIGN KEY(brand_Name) REFERENCES Brand (brand_Name),
+    FOREIGN KEY(sp_id) REFERENCES Service_Point(sp_id)
+);
