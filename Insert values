@@ -1,0 +1,194 @@
+-- Insert values into user table
+
+
+
+INSERT INTO `project`.`user` (`user_id`, `name`, `phone_num`) VALUES ('1', 'nandha','6382903644');
+INSERT INTO `project`.`user` (`user_id`, `name`, `phone_num`) VALUES ('2', 'sinraj','8925429035');
+INSERT INTO `project`.`user` (`user_id`, `name`, `phone_num`) VALUES ('3', 'bharath','7689354612');
+INSERT INTO `project`.`user` (`user_id`, `name`, `phone_num`) VALUES ('4', 'praveen kumar','9856023415');
+INSERT INTO `project`.`user` (`user_id`, `name`, `phone_num`) VALUES ('5', 'danny','7098643526');
+INSERT INTO `project`.`user` (`user_id`, `name`, `phone_num`) VALUES ('6', 'asif','8970564980');
+INSERT INTO `project`.`user` (`user_id`, `name`, `phone_num`) VALUES ('7', 'siranjeevi','9120765960');
+INSERT INTO `project`.`user` (`user_id`, `name`, `phone_num`) VALUES ('8', 'syed sahith basha','7309784562');
+INSERT INTO `project`.`user` (`user_id`, `name`, `phone_num`) VALUES ('9', 'magesh boopathy','9487605210');
+INSERT INTO `project`.`user` (`user_id`, `name`, `phone_num`) VALUES ('10', 'mageshwaran','6398276018');
+INSERT INTO `project`.`user` (`user_id`, `name`, `phone_num`) VALUES ('11', 'ajay', '6924510296');
+INSERT INTO `project`.`user` (`user_id`, `name`, `phone_num`) VALUES ('12', 'arul murugan', '6678254109');
+INSERT INTO `project`.`user` (`user_id`, `name`, `phone_num`) VALUES ('13', 'abisha', '8409827634');
+INSERT INTO `project`.`user` (`user_id`, `name`, `phone_num`) VALUES ('14', 'akshaya', '6093847621');
+INSERT INTO `project`.`user` (`user_id`, `name`, `phone_num`) VALUES ('15', 'sarathi', '8076990992');
+INSERT INTO `project`.`user` (`user_id`, `name`, `phone_num`) VALUES ('16', 'rajesh', '9000678329');
+INSERT INTO `project`.`user` (`user_id`, `name`, `phone_num`) VALUES ('17', 'sibi vishnu', '8909092762');
+INSERT INTO `project`.`user` (`user_id`, `name`, `phone_num`) VALUES ('18', 'yakesh', '8567650927');
+INSERT INTO `project`.`user` (`user_id`, `name`, `phone_num`) VALUES ('19', 'gopi', '7800980986');
+INSERT INTO `project`.`user` (`user_id`, `name`, `phone_num`) VALUES ('20', 'pradeep', '9087887890');
+INSERT INTO `project`.`user` (`user_id`, `name`, `phone_num`) VALUES ('21', 'kumar', '7454654908');
+INSERT INTO `project`.`user` (`user_id`, `name`, `phone_num`) VALUES ('22', 'asik iliyahi', '9433239087');
+INSERT INTO `project`.`user` (`user_id`, `name`, `phone_num`) VALUES ('23', 'viswa', '6909745890');
+INSERT INTO `project`.`user` (`user_id`, `name`, `phone_num`) VALUES ('24', 'sekar', '8760009865');
+INSERT INTO `project`.`user` (`user_id`, `name`, `phone_num`) VALUES ('25', 'raja soundhar', '7778764500');
+INSERT INTO `project`.`user` (`user_id`, `name`, `phone_num`) VALUES ('26', 'ezhil', '6382903446');
+INSERT INTO `project`.`user` (`user_id`, `name`, `phone_num`) VALUES ('27', 'kalai', '7092536700');
+INSERT INTO `project`.`user` (`user_id`, `name`, `phone_num`) VALUES ('28', 'madhan kumar', '9856242891');
+INSERT INTO `project`.`user` (`user_id`, `name`, `phone_num`) VALUES ('29', 'madhan raj', '7659087244');
+INSERT INTO `project`.`user` (`user_id`, `name`, `phone_num`) VALUES ('30', 'logesh waran', '6568209100');
+INSERT INTO `project`.`user` (`user_id`, `name`, `phone_num`) VALUES ('31', 'darwin', '6568909100');
+INSERT INTO `project`.`user` (`user_id`, `name`, `phone_num`) VALUES ('32', 'logesh', '6882903644');
+INSERT INTO `project`.`user` (`user_id`, `name`, `phone_num`) VALUES ('33', 'santh kumar', '6182903446');
+INSERT INTO `project`.`user` (`user_id`, `name`, `phone_num`) VALUES ('34', 'nivi kumar', '9883624425');
+INSERT INTO `project`.`user` (`user_id`, `name`, `phone_num`) VALUES ('35', 'vimal', '8700556382');
+INSERT INTO `project`.`user` (`user_id`, `name`, `phone_num`) VALUES ('36', 'regunathan', '7098352661');
+INSERT INTO `project`.`user` (`user_id`, `name`, `phone_num`) VALUES ('37', 'sathis', '6309278199');
+INSERT INTO `project`.`user` (`user_id`, `name`, `phone_num`) VALUES ('38', 'madhan raj', '7992003652');
+INSERT INTO `project`.`user` (`user_id`, `name`, `phone_num`) VALUES ('39', 'sathish kumar', '6289037629');
+INSERT INTO `project`.`user` (`user_id`, `name`, `phone_num`) VALUES ('40', 'sathis kannan', '7690005647');
+INSERT INTO `project`.`user` (`user_id`, `name`, `phone_num`) VALUES ('41', 'hemalatha', '8790256172');
+INSERT INTO `project`.`user` (`user_id`, `name`, `phone_num`) VALUES ('42', 'sneha', '6390823644');
+INSERT INTO `project`.`user` (`user_id`, `name`, `phone_num`) VALUES ('43', 'anto kenly', '7856420101');
+INSERT INTO `project`.`user` (`user_id`, `name`, `phone_num`) VALUES ('44', 'hari prasath', '7936798201');
+INSERT INTO `project`.`user` (`user_id`, `name`, `phone_num`) VALUES ('45', 'karthika', '6283466200');
+INSERT INTO `project`.`user` (`user_id`, `name`, `phone_num`) VALUES ('46', 'nivetha', '7009862510');
+INSERT INTO `project`.`user` (`user_id`, `name`, `phone_num`) VALUES ('47', 'saravana kumar', '9000000909');
+INSERT INTO `project`.`user` (`user_id`, `name`, `phone_num`) VALUES ('48', 'sindhuja', '7009890985');
+INSERT INTO `project`.`user` (`user_id`, `name`, `phone_num`) VALUES ('49', 'surya', '6990824311');
+INSERT INTO `project`.`user` (`user_id`, `name`, `phone_num`) VALUES ('50', 'priya', '6453378764');
+
+
+--- insert values into buyer table
+
+INSERT INTO `project`.`buyer` (`user_id`) VALUES ('3');
+INSERT INTO `project`.`buyer` (`user_id`) VALUES ('6');
+INSERT INTO `project`.`buyer` (`user_id`) VALUES ('46');
+INSERT INTO `project`.`buyer` (`user_id`) VALUES ('38');
+INSERT INTO `project`.`buyer` (`user_id`) VALUES ('25');
+INSERT INTO `project`.`buyer` (`user_id`) VALUES ('1');
+INSERT INTO `project`.`buyer` (`user_id`) VALUES ('9');
+INSERT INTO `project`.`buyer` (`user_id`) VALUES ('32');
+INSERT INTO `project`.`buyer` (`user_id`) VALUES ('28');
+INSERT INTO `project`.`buyer` (`user_id`) VALUES ('49');
+
+-- insert values into seller table
+
+INSERT INTO `project`.`seller` (`user_id`) VALUES ('26');
+INSERT INTO `project`.`seller` (`user_id`) VALUES ('4');
+INSERT INTO `project`.`seller` (`user_id`) VALUES ('7');
+INSERT INTO `project`.`seller` (`user_id`) VALUES ('39');
+INSERT INTO `project`.`seller` (`user_id`) VALUES ('50');
+INSERT INTO `project`.`seller` (`user_id`) VALUES ('41');
+INSERT INTO `project`.`seller` (`user_id`) VALUES ('18');
+INSERT INTO `project`.`seller` (`user_id`) VALUES ('14');
+INSERT INTO `project`.`seller` (`user_id`) VALUES ('2');
+INSERT INTO `project`.`seller` (`user_id`) VALUES ('19');
+
+-- insert values into address table
+
+
+
+INSERT INTO `project`.`address` (`add_id`, `user_id`, `name`, `phone_no`, `province`, `city`, `street_addr`, `post_code`) VALUES ('1', '9', 'siranjeevi', '7629027102', 'd-mart', 'chennai', 'velachery smart street', '604 303');
+INSERT INTO `project`.`address` (`add_id`, `user_id`, `name`, `phone_no`, `province`, `city`, `street_addr`, `post_code`) VALUES ('2', '20', 'rajesh', '6398364482', 'wall mart', 'coimbatore', 'poonamalli 2nd street', '603 300');
+INSERT INTO `project`.`address` (`add_id`, `user_id`, `name`, `phone_no`, `province`, `city`, `street_addr`, `post_code`) VALUES ('3', '15', 'sarathi', '8903328390', 'four pointers', 'tambaram', 'medavakkam south street', '603 305');
+INSERT INTO `project`.`address` (`add_id`, `user_id`, `name`, `phone_no`, `province`, `city`, `street_addr`, `post_code`) VALUES ('4', '12', 'sibi vishnu', '9083764527', 'd-mart', 'chennai', 'velachery smart street', '607 708');
+INSERT INTO `project`.`address` (`add_id`, `user_id`, `name`, `phone_no`, `province`, `city`, `street_addr`, `post_code`) VALUES ('5', '3', 'danny', '6382907162', 'zudio', 'light house', 'thirumayilai south street', '602 302');
+INSERT INTO `project`.`address` (`add_id`, `user_id`, `name`, `phone_no`, `province`, `city`, `street_addr`, `post_code`) VALUES ('6', '7', 'praveen kumar', '7920394729', 'fordy', 'chengalpattu', 'padalam main rode', '701 203');
+INSERT INTO `project`.`address` (`add_id`, `user_id`, `name`, `phone_no`, `province`, `city`, `street_addr`, `post_code`) VALUES ('7', '1', 'nandha', '6382903644', 'zomato', 'villupuram', 'tindivanam bharathi street', '605 304');
+INSERT INTO `project`.`address` (`add_id`, `user_id`, `name`, `phone_no`, `province`, `city`, `street_addr`, `post_code`) VALUES ('8', '6', 'sekar', '7309274862', 'swiggy', 'chengalpattu', 'maduranthakam scudder street', '602 102');
+INSERT INTO `project`.`address` (`add_id`, `user_id`, `name`, `phone_no`, `province`, `city`, `street_addr`, `post_code`) VALUES ('9', '2', 'kumar', '7202939272', 'd-mart', 'chennai', 'velachery smart street', '604 303');
+INSERT INTO `project`.`address` (`add_id`, `user_id`, `name`, `phone_no`, `province`, `city`, `street_addr`, `post_code`) VALUES ('10', '16', 'yakesh', '7909802534', 'four pointers', 'tambaram', 'medavakkam south street', '603 305');
+INSERT INTO `project`.`address` (`add_id`, `user_id`, `name`, `phone_no`, `province`, `city`, `street_addr`, `post_code`) VALUES ('11', '8', 'nami', '8083622983', 'fordy', 'chengalpattu', 'padalam main rode', '701 203');
+INSERT INTO `project`.`address` (`add_id`, `user_id`, `name`, `phone_no`, `province`, `city`, `street_addr`, `post_code`) VALUES ('12', '19', 'zoro kun', '9026397263', 'zudio', 'light house', 'thirumayilai south street', '602 302');
+INSERT INTO `project`.`address` (`add_id`, `user_id`, `name`, `phone_no`, `province`, `city`, `street_addr`, `post_code`) VALUES ('13', '5', 'bharath kumar', '7293333792', 'swiggy', 'chengalpattu', 'maduranthakam scudder street', '602 102');
+INSERT INTO `project`.`address` (`add_id`, `user_id`, `name`, `phone_no`, `province`, `city`, `street_addr`, `post_code`) VALUES ('14', '10', 'ezhil', '9018263822', 'wall mart', 'coimbatore', 'poonamalli 2nd street', '603 300');
+INSERT INTO `project`.`address` (`add_id`, `user_id`, `name`, `phone_no`, `province`, `city`, `street_addr`, `post_code`) VALUES ('15', '14', 'govind', '8928230293', 'zomato', 'villupuram', 'tindivanam bharathi street', '605 304');
+INSERT INTO `project`.`address` (`add_id`, `user_id`, `name`, `phone_no`, `province`, `city`, `street_addr`, `post_code`) VALUES ('16', '4', 'sanjeevi', '9026373228', 'fordy', 'chengalpattu', 'padalam main rode', '701 203');
+INSERT INTO `project`.`address` (`add_id`, `user_id`, `name`, `phone_no`, `province`, `city`, `street_addr`, `post_code`) VALUES ('17', '18', 'madhan raj', '6029263292', 'four pointers', 'tambaram', 'medavakkam south street', '603 305');
+INSERT INTO `project`.`address` (`add_id`, `user_id`, `name`, `phone_no`, `province`, `city`, `street_addr`, `post_code`) VALUES ('18', '20', 'madhan', '9083523829', 'zudio', 'light house', 'thirumayilai south street', '602 302');
+INSERT INTO `project`.`address` (`add_id`, `user_id`, `name`, `phone_no`, `province`, `city`, `street_addr`, `post_code`) VALUES ('19', '1', 'nandha', '6392037103', 'wall mart', 'coimbatore', 'poonamalli 2nd street', '603 300');
+INSERT INTO `project`.`address` (`add_id`, `user_id`, `name`, `phone_no`, `province`, `city`, `street_addr`, `post_code`) VALUES ('20', '16', 'sofia', '8029793239', 'zudio', 'light house', 'thirumayilai south street', '602 302');
+INSERT INTO `project`.`address` (`add_id`, `user_id`, `name`, `phone_no`, `province`, `city`, `street_addr`, `post_code`) VALUES ('21', '35', 'luffy', '9072628172', 'swiggy', 'chengalpattu', 'maduranthakam scudder street', '602 102');
+INSERT INTO `project`.`address` (`add_id`, `user_id`, `name`, `phone_no`, `province`, `city`, `street_addr`, `post_code`) VALUES ('22', '23', 'naruto', '9827393019', 'zomato', 'villupuram', 'tindivanam bharathi street', '605 304');
+INSERT INTO `project`.`address` (`add_id`, `user_id`, `name`, `phone_no`, `province`, `city`, `street_addr`, `post_code`) VALUES ('23', '21', 'madhan kumar', '9822766382', 'four pointers', 'tambaram', 'medavakkam south street', '603 305');
+INSERT INTO `project`.`address` (`add_id`, `user_id`, `name`, `phone_no`, `province`, `city`, `street_addr`, `post_code`) VALUES ('24', '38', 'abisha', '8093387338', 'fordy', 'chengalpattu', 'padalam main rode', '701 203');
+INSERT INTO `project`.`address` (`add_id`, `user_id`, `name`, `phone_no`, `province`, `city`, `street_addr`, `post_code`) VALUES ('25', '27', 'hemalatha', '6203838922', 'zudio', 'light house', 'thirumayilai south street', '602 302');
+INSERT INTO `project`.`address` (`add_id`, `user_id`, `name`, `phone_no`, `province`, `city`, `street_addr`, `post_code`) VALUES ('26', '31', 'sneha', '7293839282', 'wall mart', 'coimbatore', 'poonamalli 2nd street', '603 300');
+INSERT INTO `project`.`address` (`add_id`, `user_id`, `name`, `phone_no`, `province`, `city`, `street_addr`, `post_code`) VALUES ('27', '39', 'pradeep', '9082763728', 'zomato', 'villupuram', 'tindivanam bharathi street', '605 304');
+INSERT INTO `project`.`address` (`add_id`, `user_id`, `name`, `phone_no`, `province`, `city`, `street_addr`, `post_code`) VALUES ('28', '24', 'ethiraj', '8029838933', 'four pointers', 'tambaram', 'medavakkam south street', '603 305');
+INSERT INTO `project`.`address` (`add_id`, `user_id`, `name`, `phone_no`, `province`, `city`, `street_addr`, `post_code`) VALUES ('29', '37', 'rajeshwari', '9092872829', 'zomato', 'villupuram', 'tindivanam bharathi street', '605 304');
+INSERT INTO `project`.`address` (`add_id`, `user_id`, `name`, `phone_no`, `province`, `city`, `street_addr`, `post_code`) VALUES ('30', '49', 'kanmani', '9827728229', 'swiggy', 'chengalpattu', 'maduranthakam scudder street', '602 102');
+INSERT INTO `project`.`address` (`add_id`, `user_id`, `name`, `phone_no`, `province`, `city`, `street_addr`, `post_code`) VALUES ('31', '42', 'karthika', '7029833010', 'fordy', 'chengalpattu', 'padalam main rode', '701 203');
+INSERT INTO `project`.`address` (`add_id`, `user_id`, `name`, `phone_no`, `province`, `city`, `street_addr`, `post_code`) VALUES ('32', '17', 'sahana', '9836393919', 'zudio', 'light house', 'thirumayilai south street', '602 302');
+INSERT INTO `project`.`address` (`add_id`, `user_id`, `name`, `phone_no`, `province`, `city`, `street_addr`, `post_code`) VALUES ('33', '25', 'subash', '8022932937', 'wall mart', 'coimbatore', '	poonamalli 2nd street', '603 300');
+INSERT INTO `project`.`address` (`add_id`, `user_id`, `name`, `phone_no`, `province`, `city`, `street_addr`, `post_code`) VALUES ('34', '32', 'dhanush', '6938332782', 'four pointers', 'tambaram', 'medavakkam south street', '603 305');
+INSERT INTO `project`.`address` (`add_id`, `user_id`, `name`, `phone_no`, `province`, `city`, `street_addr`, `post_code`) VALUES ('35', '30', 'kalai', '6383293233', 'fordy', 'chengalpattu', 'padalam main rode', '701 203');
+INSERT INTO `project`.`address` (`add_id`, `user_id`, `name`, `phone_no`, `province`, `city`, `street_addr`, `post_code`) VALUES ('36', '42', 'logesh', '9383723239', 'wall mart', 'coimbatore', '	poonamalli 2nd street', '603 300');
+INSERT INTO `project`.`address` (`add_id`, `user_id`, `name`, `phone_no`, `province`, `city`, `street_addr`, `post_code`) VALUES ('37', '45', 'santh', '9058734345', 'zomato', 'villupuram', 'tindivanam bharathi street', '605 304');
+INSERT INTO `project`.`address` (`add_id`, `user_id`, `name`, `phone_no`, `province`, `city`, `street_addr`, `post_code`) VALUES ('38', '12', 'ganesh', '8038324728', 'swiggy', 'chengalpattu', 'maduranthakam scudder street', '602 102');
+INSERT INTO `project`.`address` (`add_id`, `user_id`, `name`, `phone_no`, `province`, `city`, `street_addr`, `post_code`) VALUES ('39', '3', 'ganapathy', '6758499330', 'four pointers', 'tambaram', 'medavakkam south street', '603 305');
+INSERT INTO `project`.`address` (`add_id`, `user_id`, `name`, `phone_no`, `province`, `city`, `street_addr`, `post_code`) VALUES ('40', '33', 'sakthi', '8000393873', 'zudio', 'light house', 'thirumayilai south street', '602 302');
+INSERT INTO `project`.`address` (`add_id`, `user_id`, `name`, `phone_no`, `province`, `city`, `street_addr`, `post_code`) VALUES ('41', '36', 'kuttyan', '7638383933', 'd-mart', 'chennai', 'velachery smart street', '604 303');
+INSERT INTO `project`.`address` (`add_id`, `user_id`, `name`, `phone_no`, `province`, `city`, `street_addr`, `post_code`) VALUES ('42', '44', 'magesh boopathy', '7993833987', 'fordy', 'chengalpattu', 'padalam main rode', '701 203');
+INSERT INTO `project`.`address` (`add_id`, `user_id`, `name`, `phone_no`, `province`, `city`, `street_addr`, `post_code`) VALUES ('43', '47', 'magesh', '9099383990', 'swiggy', 'chengalpattu', 'maduranthakam scudder street', '602 102');
+INSERT INTO `project`.`address` (`add_id`, `user_id`, `name`, `phone_no`, `province`, `city`, `street_addr`, `post_code`) VALUES ('44', '50', 'danny', '6738937948', 'wall mart', 'coimbatore', '	poonamalli 2nd street', '603 300');
+INSERT INTO `project`.`address` (`add_id`, `user_id`, `name`, `phone_no`, `province`, `city`, `street_addr`, `post_code`) VALUES ('45', '1', 'gopi', '6463839376', 'zomato', 'villupuram', 'tindivanam bharathi street', '605 304');
+INSERT INTO `project`.`address` (`add_id`, `user_id`, `name`, `phone_no`, `province`, `city`, `street_addr`, `post_code`) VALUES ('46', '23', 'kabilan', '7893938736', 'fordy', 'chengalpattu', 'padalam main rode', '701 203');
+INSERT INTO `project`.`address` (`add_id`, `user_id`, `name`, `phone_no`, `province`, `city`, `street_addr`, `post_code`) VALUES ('47', '49', 'rajesh', '9039847836', 'd-mart', 'chennai', 'velachery smart street', '604 303');
+INSERT INTO `project`.`address` (`add_id`, `user_id`, `name`, `phone_no`, `province`, `city`, `street_addr`, `post_code`) VALUES ('48', '47', 'shesha', '9876348749', 'wall mart', 'coimbatore', '	poonamalli 2nd street', '603 300');
+INSERT INTO `project`.`address` (`add_id`, `user_id`, `name`, `phone_no`, `province`, `city`, `street_addr`, `post_code`) VALUES ('49', '37', 'arun', '7893376434', 'swiggy', 'chengalpattu', 'maduranthakam scudder street', '602 102');
+INSERT INTO `project`.`address` (`add_id`, `user_id`, `name`, `phone_no`, `province`, `city`, `street_addr`, `post_code`) VALUES ('50', '36', 'kishore', '7647387483', 'd-mart', 'chennai', 'velachery smart street', '604 303');
+
+
+--- insert values into bank_card table
+
+INSERT INTO `project`.`bank_card` (`card_num`, `bank_name`, `expiry_date`) VALUES ('4356 7262 8233 9000', 'canara', '2029-12-09');
+INSERT INTO `project`.`bank_card` (`card_num`, `bank_name`, `expiry_date`) VALUES ('4982 9029 8332 5098', 'icici', '2040-05-23');
+INSERT INTO `project`.`bank_card` (`card_num`, `bank_name`, `expiry_date`) VALUES ('4893 3094 7293 0049', 'okaxis', '2030-12-19');
+INSERT INTO `project`.`bank_card` (`card_num`, `bank_name`, `expiry_date`) VALUES ('4129 1234 2763 8393', 'indian', '2050-09-26');
+INSERT INTO `project`.`bank_card` (`card_num`, `bank_name`, `expiry_date`) VALUES ('4209 9484 3033 9822', 'iob', '2027-11-21');
+INSERT INTO `project`.`bank_card` (`card_num`, `bank_name`, `expiry_date`) VALUES ('4092 6172 7293 9273', 'canara', '2030-04-30');
+INSERT INTO `project`.`bank_card` (`card_num`, `bank_name`, `expiry_date`) VALUES ('4038 2721 7361 8371', 'kotak', '2034-10-25');
+INSERT INTO `project`.`bank_card` (`card_num`, `bank_name`, `expiry_date`) VALUES ('4827 9292 3683 8330', 'iob', '2065-02-12');
+INSERT INTO `project`.`bank_card` (`card_num`, `bank_name`, `expiry_date`) VALUES ('4872 2812 3281 3187', 'indian', '2034-01-10');
+INSERT INTO `project`.`bank_card` (`card_num`, `bank_name`, `expiry_date`) VALUES ('4928 6822 8923 6138', 'okaxis', '2026-04-26');
+INSERT INTO `project`.`bank_card` (`card_num`, `bank_name`, `expiry_date`) VALUES ('4928 2121 3764 8247', 'kotak', '2037-07-17');
+
+insert values into credit_card table
+
+INSERT INTO `project`.`credit_card` (`card_num`, `user_id`, `organization`) VALUES ('4038 2721 7361 8371', '3', 'visa');
+INSERT INTO `project`.`credit_card` (`card_num`, `user_id`, `organization`) VALUES ('4092 6172 7293 9273', '46', 'master');
+INSERT INTO `project`.`credit_card` (`card_num`, `user_id`, `organization`) VALUES ('4129 1234 2763 8393', '25', 'master');
+INSERT INTO `project`.`credit_card` (`card_num`, `user_id`, `organization`) VALUES ('4209 9484 3033 9822', '1', 'visa');
+INSERT INTO `project`.`credit_card` (`card_num`, `user_id`, `organization`) VALUES ('4356 7262 8233 9000', '49', 'master');
+INSERT INTO `project`.`credit_card` (`card_num`, `user_id`, `organization`) VALUES ('4827 9292 3683 8330', '32', 'visa');
+
+--- insert values into debit_card table
+
+
+INSERT INTO `project`.`debit_card` (`card_num`, `user_id`) VALUES ('4872 2812 3281 3187', '7');
+INSERT INTO `project`.`debit_card` (`card_num`, `user_id`) VALUES ('4893 3094 7293 0049', '41');
+INSERT INTO `project`.`debit_card` (`card_num`, `user_id`) VALUES ('4928 2121 3764 8247', '50');
+INSERT INTO `project`.`debit_card` (`card_num`, `user_id`) VALUES ('4928 6822 8923 6138', '19');
+INSERT INTO `project`.`debit_card` (`card_num`, `user_id`) VALUES ('4982 9029 8332 5098', '18');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
